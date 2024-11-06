@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>Training point</title>
+</head>
+
+<body class="bg-blue-100 h-screen p-1">
+    <header class="bg-white">
+        <nav class=" flex justify-between items-center w-[92%] mx-auto">
+            <div>
+                <img class="w-[200px]" src="images/logo.svg" alt="">
+            </div>
+            <div
+                class="nav-links md:static absolute bg-white md:min-h-fit min-h-8 left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-6 gap-8">
+
+                    <li>
+                        <a class="hover:text-orange-500 " href="#">Courses</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-orange-500" href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-orange-500" href="#">Blogs</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-orange-500" href="#">News & Events</a>
+                    </li>
+                    <li>
+                        <a class="hover:text-orange-500" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <button class="bg-orange-500 text-white px-5 py-2 rounded-full hover:bg-yellow-500">Book
+                    a Consultation</button>
+                <box-icon onclick="onToggleMenu(this)" class="text-3xl cursor-pointer md:hidden" name='menu'></box-icon>
+            </div>
+        </nav>
+    </header>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
